@@ -92,12 +92,12 @@ def education():
     content = {
         **base_content,
         'educations': [{
-            'school': 'Meta University',
+            'school': 'Stony Brook University',
             'degree': 'Bachelor of Science',
-            'major': 'Zucc Sciences',
-            'years': '2020 - Present'
+            'major': 'Computer Science',
+            'years': '2020 - 2024'
         }, {
-            'school': 'Atlantis High School',
+            'school': 'Bethpage High School',
             'degree': 'High School Diploma',
             'years': '2016 - 2020'
         }]
