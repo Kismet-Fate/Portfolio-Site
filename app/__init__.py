@@ -38,16 +38,16 @@ mydb.create_tables([TimelinePost])
 # Base content all pages need
 # used by the "profile" section of the template
 base_content = {
-    'name': 'MLH Fellow',
+    'name': 'Ailun Yu',
     'position': 'Software Engineer',
     'url': os.getenv("URL"),
     'socials': [{
         'name': 'Github',
-        'url': 'https://github.com/MLH-Fellowship',
+        'url': 'https://github.com/Kismet-Fate',
         'icon': './static/img/social/github.svg'
     }, {
         'name': 'LinkedIn',
-        'url': 'https://www.linkedin.com/company/major-league-hacking/',
+        'url': 'https://www.linkedin.com/in/ailun-yu-b1865a21b/',
         'icon': './static/img/social/linkedin.svg'
     }]
 }
