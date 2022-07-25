@@ -30,6 +30,6 @@ jobs:
 
       - name: Deploy site
         run: |
-          cd project-chad-wojak/
-          chmod 600 redeploy-site.sh
+          ssh my-vps cd project-chad-wojak/
+          ssh my-vps chmod 600 redeploy-site.sh
           ssh my-vps 'redeploy-site.sh'
