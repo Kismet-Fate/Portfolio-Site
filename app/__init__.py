@@ -156,8 +156,8 @@ def where_am_i():
     content = {
         **base_content,
         'places': [{
-            'name': 'San Francisco',
-            'description': 'I am currently living in San Francisco, California (lie)',
+            'name': 'Stonybrook',
+            'description': 'I am currently living in Stonybrook, New York',
             'coords': [37.75, -122.4]
         }, {
             'name': 'Edmonton',
